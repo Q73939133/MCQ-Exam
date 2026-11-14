@@ -1,0 +1,50 @@
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI","Noto Sans Bengali",sans-serif;background:#dfe3e8;color:#14213d}
+header{text-align:center;padding:28px 12px 8px}
+h1{margin:0;font-weight:300;font-size:2.1rem}
+header p,.muted{color:#566}
+main{max-width:860px;margin:auto;padding:12px}
+.card{background:#fff;border:1px solid #c9ced6;border-radius:6px;padding:16px 18px;margin:14px 0}
+.card h3{margin:2px 0 6px;font-weight:500}
+.card small{color:#566}
+button{background:#1d3b8b;color:#fff;border:0;border-radius:6px;padding:10px 18px;font:inherit;cursor:pointer;margin:2px}
+button.alt{background:#fff;color:#1d3b8b;border:1px solid #1d3b8b}
+button:focus-visible,input:focus-visible{outline:3px solid #7aa2ff;outline-offset:2px}
+.bar{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;background:#fff;border-bottom:1px solid #c9ced6;padding:8px 14px;margin:0 -12px}
+#t{font-size:1.35rem;font-variant-numeric:tabular-nums}
+.low{color:#b3261e;font-weight:600}
+.paper{background:#fff;box-shadow:0 2px 14px #0003;padding:36px 44px;margin:16px 0 40px;font-family:"Latin Modern Roman","CMU Serif","Times New Roman","Noto Serif Bengali",serif;font-size:1.1rem;line-height:1.7;color:#111}
+.paper h2{text-align:center;font-weight:400;margin:0}
+.meta{text-align:center;color:#444;margin:4px 0 10px}
+.q{margin:20px 0}
+.q label{display:block;padding:5px 10px;border-radius:4px;cursor:pointer}
+.q label:hover{background:#f1f4fb}
+.q label.ok{background:#d8f3dc}
+.q label.bad{background:#fbd9d6}
+.exp{border-left:3px solid #1d3b8b;padding-left:12px;font-size:1rem;color:#333}
+.score{text-align:center}
+.score b{display:block;font-size:3rem;font-weight:500}
+.hist p{margin:4px 0}
+#pdf{display:none}
+@media(max-width:600px){h1{font-size:1.6rem}.paper{padding:20px 14px}}
+@media print{
+  @page{margin:22mm}
+  body>*:not(#pdf){display:none!important}
+  body{background:#fff}
+  #pdf{display:block;font:12pt/1.45 "Latin Modern Roman","CMU Serif","Times New Roman","Noto Serif Bengali",serif;text-align:justify;color:#000}
+  #pdf h1{text-align:center;font-size:20pt;font-weight:400}
+  #pdf .c{text-align:center}
+  #pdf hr{border:0;border-top:.6pt solid #000}
+  #pdf .q{break-inside:avoid}
+}
+header{position:relative}
+.sw{position:absolute;top:12px;right:14px;display:flex;align-items:center;gap:6px;font-size:.85rem;cursor:pointer;user-select:none}
+.sw input{position:absolute;opacity:0}
+.sw i{width:42px;height:24px;border-radius:12px;background:#9aa6b8;position:relative;transition:background .2s}
+.sw i::after{content:"";position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:#fff;transition:transform .2s}
+.sw input:checked+i{background:#1d3b8b}
+.sw input:checked+i::after{transform:translateX(18px)}
+.sw input:focus-visible+i{outline:3px solid #7aa2ff;outline-offset:2px}
+@media(max-width:600px){.sw{position:static;justify-content:flex-end;margin-bottom:6px}}
+.crumbs{margin:10px 2px;color:#566}.crumbs a{color:#1d3b8b}
+.warn{border-color:#b3261e;color:#b3261e}

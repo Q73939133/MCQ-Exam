@@ -1,0 +1,291 @@
+{
+ "subject": {
+  "en": "Math",
+  "bn": "গণিত"
+ },
+ "lesson": {
+  "en": "Trigonometry",
+  "bn": "ত্রিকোণমিতিক অনুপাত"
+ },
+ "name": {
+  "en": "Test 2",
+  "bn": "টেস্ট ২"
+ },
+ "questions": [
+  {
+   "q": "গ্রিক বর্ণ ω কে কী বলে?",
+   "options": [
+    "আলফা",
+    "গামা",
+    "ওমেগা",
+    "ফাই"
+   ],
+   "answer": 2,
+   "explanation": "ω এর নাম ওমেগা (omega)।"
+  },
+  {
+   "q": "একই কোণবিশিষ্ট সদৃশ সমকোণী ত্রিভুজগুলোর বাহুর অনুপাতসমূহ কেমন হয়?",
+   "options": [
+    "পরিবর্তনশীল",
+    "সবসময় শূন্য",
+    "ধ্রুবক (অপরিবর্তিত)",
+    "সবসময় 1"
+   ],
+   "answer": 2,
+   "explanation": "সদৃশ ত্রিভুজের অনুরূপ বাহুগুলোর অনুপাত সমান। তাই OA বাহুর উপর P বিন্দু যেখানেই নেওয়া হোক, অনুপাতের মান ধ্রুবক থাকে।"
+  },
+  {
+   "q": "sin θ প্রতীকটি দ্বারা কী বোঝায়?",
+   "options": [
+    "θ কোণের সাইনের অনুপাত",
+    "sin ও θ এর গুণফল",
+    "sin ও θ এর যোগফল",
+    "θ কোণের সাইন ও কোসাইনের গুণফল"
+   ],
+   "answer": 0,
+   "explanation": "sin θ একটি অনুপাতের প্রতীক; sin ও θ এর গুণফল নয়। θ বাদে sin এর আলাদা কোনো অর্থ নেই।"
+  },
+  {
+   "q": "একটি সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাত কয়টি?",
+   "options": [
+    "6",
+    "3",
+    "4",
+    "8"
+   ],
+   "answer": 0,
+   "explanation": "sin, cos, tan এবং এদের বিপরীত অনুপাত cosec, sec, cot, মোট 6টি।"
+  },
+  {
+   "q": "নিচের কোনটি সঠিক?",
+   "options": [
+    "tan A এর মান সর্বদা 1 এর চেয়ে কম",
+    "A এর কোনো মানের জন্য sec A = 12/5 হতে পারে",
+    "cot A হলো cot ও A এর গুণফল",
+    "cos হলো cotangent এর সংক্ষিপ্ত রূপ"
+   ],
+   "answer": 1,
+   "explanation": "সূক্ষ্মকোণে অতিভুজ সন্নিহিত বাহুর চেয়ে বড়, তাই sec A > 1 এবং 12/5 সম্ভব। tan A এর মান 1 এর বেশিও হতে পারে, cot A একটি অনুপাত, আর cos হলো cosine এর সংক্ষিপ্ত রূপ।"
+  },
+  {
+   "q": "sin A = 3/4 হলে cos A = কত?",
+   "options": [
+    "√5/4",
+    "√7/4",
+    "1/4",
+    "4/3"
+   ],
+   "answer": 1,
+   "explanation": "cos²A = 1 − sin²A = 1 − 9/16 = 7/16, তাই cos A = √7/4।"
+  },
+  {
+   "q": "sin A = 3/4 হলে tan A = কত?",
+   "options": [
+    "3/√7",
+    "√7/3",
+    "3/√5",
+    "4/3"
+   ],
+   "answer": 0,
+   "explanation": "cos A = √7/4, তাই tan A = sin A ÷ cos A = (3/4) ÷ (√7/4) = 3/√7।"
+  },
+  {
+   "q": "tan A = √3 হলে √3 sin A cos A এর মান কত?",
+   "options": [
+    "√3/4",
+    "3/2",
+    "3/4",
+    "1/4"
+   ],
+   "answer": 2,
+   "explanation": "tan A = √3 হলে বিপরীত বাহু √3, সন্নিহিত বাহু 1, অতিভুজ 2। sin A = √3/2, cos A = 1/2। তাই √3 × (√3/2) × (1/2) = 3/4।"
+  },
+  {
+   "q": "△POM সমকোণী ত্রিভুজের ∠POM = 30°, OP = 2a এবং PM = a হলে OM = কত?",
+   "options": [
+    "√2 a",
+    "3a",
+    "√3 a",
+    "a/2"
+   ],
+   "answer": 2,
+   "explanation": "OM = √(OP² − PM²) = √(4a² − a²) = √3 a।"
+  },
+  {
+   "q": "30° কোণের ক্ষেত্রে (বিপরীত বাহু a, অতিভুজ 2a) sin 30° এর মান কত?",
+   "options": [
+    "√3/2",
+    "1/√3",
+    "1",
+    "1/2"
+   ],
+   "answer": 3,
+   "explanation": "sin 30° = বিপরীত বাহু ÷ অতিভুজ = a/2a = 1/2।"
+  },
+  {
+   "q": "60° কোণের ক্ষেত্রে (বিপরীত বাহু √3 a, সন্নিহিত বাহু a) tan 60° এর মান কত?",
+   "options": [
+    "1/√3",
+    "1",
+    "√3",
+    "√3/2"
+   ],
+   "answer": 2,
+   "explanation": "tan 60° = বিপরীত বাহু ÷ সন্নিহিত বাহু = √3 a / a = √3।"
+  },
+  {
+   "q": "30° কোণের ক্ষেত্রে (সন্নিহিত বাহু √3 a, অতিভুজ 2a) cos 30° এর মান কত?",
+   "options": [
+    "1/2",
+    "1/√3",
+    "√3",
+    "√3/2"
+   ],
+   "answer": 3,
+   "explanation": "cos 30° = সন্নিহিত বাহু ÷ অতিভুজ = √3 a / 2a = √3/2।"
+  },
+  {
+   "q": "সমকোণী ত্রিভুজের কোনো সূক্ষ্মকোণের বিপরীত ও সন্নিহিত বাহু সমান হলে ওই কোণের tan এর মান কত?",
+   "options": [
+    "0",
+    "1",
+    "√2",
+    "1/2"
+   ],
+   "answer": 1,
+   "explanation": "tan = বিপরীত বাহু ÷ সন্নিহিত বাহু = 1 (এটি 45° কোণের ক্ষেত্রে ঘটে)।"
+  },
+  {
+   "q": "সমকোণী ত্রিভুজের বিপরীত বাহু = সন্নিহিত বাহু = a হলে অতিভুজ কত?",
+   "options": [
+    "2a",
+    "a",
+    "a²",
+    "√2 a"
+   ],
+   "answer": 3,
+   "explanation": "অতিভুজ = √(a² + a²) = √2 a।"
+  },
+  {
+   "q": "tan A = 1 হলে sin A = কত?",
+   "options": [
+    "1/2",
+    "1/√2",
+    "√3/2",
+    "1"
+   ],
+   "answer": 1,
+   "explanation": "বিপরীত বাহু = সন্নিহিত বাহু = a হলে অতিভুজ √2 a। তাই sin A = a/√2 a = 1/√2।"
+  },
+  {
+   "q": "1/sec²A + 1/cosec²A = কত?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "sec²A"
+   ],
+   "answer": 1,
+   "explanation": "1/sec²A = cos²A এবং 1/cosec²A = sin²A। তাই যোগফল sin²A + cos²A = 1।"
+  },
+  {
+   "q": "tan θ + cot θ = কত?",
+   "options": [
+    "sin θ · cos θ",
+    "sec θ · cosec θ",
+    "sec θ + cosec θ",
+    "1"
+   ],
+   "answer": 1,
+   "explanation": "tan θ + cot θ = (sin²θ + cos²θ)/(sin θ cos θ) = 1/(sin θ cos θ) = sec θ · cosec θ।"
+  },
+  {
+   "q": "sec²θ + cosec²θ = কত?",
+   "options": [
+    "1",
+    "sec²θ − cosec²θ",
+    "tan²θ · cot²θ",
+    "sec²θ · cosec²θ"
+   ],
+   "answer": 3,
+   "explanation": "sec²θ + cosec²θ = 1/cos²θ + 1/sin²θ = (sin²θ + cos²θ)/(cos²θ sin²θ) = sec²θ · cosec²θ।"
+  },
+  {
+   "q": "tan A/(sec A + 1) − (sec A − 1)/tan A এর মান কত?",
+   "options": [
+    "1",
+    "2",
+    "0",
+    "sec A"
+   ],
+   "answer": 2,
+   "explanation": "বামপক্ষ = [tan²A − (sec²A − 1)] / [(sec A + 1) tan A]। যেহেতু sec²A − 1 = tan²A, লব = 0। তাই মান 0।"
+  },
+  {
+   "q": "√((1 − sin A)/(1 + sin A)) = কত?",
+   "options": [
+    "sec A − tan A",
+    "sec A + tan A",
+    "tan A − sec A",
+    "cosec A − cot A"
+   ],
+   "answer": 0,
+   "explanation": "লব ও হরকে (1 − sin A) দ্বারা গুণ করলে √((1 − sin A)²/cos²A) = (1 − sin A)/cos A = sec A − tan A।"
+  },
+  {
+   "q": "tan A + sin A = a এবং tan A − sin A = b হলে a² − b² = কত?",
+   "options": [
+    "4√(ab)",
+    "4ab",
+    "2√(ab)",
+    "√(ab)"
+   ],
+   "answer": 0,
+   "explanation": "a² − b² = 4 tan A sin A = 4√(tan²A sin²A) = 4√((tan A + sin A)(tan A − sin A)) = 4√(ab)।"
+  },
+  {
+   "q": "tan A = 1/√3 হলে (cosec²A − sec²A)/(cosec²A + sec²A) এর মান কত?",
+   "options": [
+    "1/2",
+    "1/3",
+    "3/4",
+    "1"
+   ],
+   "answer": 0,
+   "explanation": "cot²A = 3, তাই cosec²A = 1 + 3 = 4। sec²A = 1 + 1/3 = 4/3। মান = (4 − 4/3)/(4 + 4/3) = (8/3)/(16/3) = 1/2।"
+  },
+  {
+   "q": "cot A = b/a হলে (a sin A − b cos A)/(a sin A + b cos A) = কত?",
+   "options": [
+    "(a² + b²)/(a² − b²)",
+    "(a − b)/(a + b)",
+    "(b² − a²)/(a² + b²)",
+    "(a² − b²)/(a² + b²)"
+   ],
+   "answer": 3,
+   "explanation": "লব ও হরকে sin A দ্বারা ভাগ করলে (a − b cot A)/(a + b cot A) = (a − b²/a)/(a + b²/a) = (a² − b²)/(a² + b²)।"
+  },
+  {
+   "q": "cosec A − cot A = 1/x হলে cosec A + cot A = কত?",
+   "options": [
+    "x",
+    "1/x",
+    "x²",
+    "x − 1/x"
+   ],
+   "answer": 0,
+   "explanation": "(cosec A + cot A)(cosec A − cot A) = 1, তাই cosec A + cot A = 1 ÷ (1/x) = x।"
+  },
+  {
+   "q": "cos A + sin A = √2 cos A হলে cos A − sin A = কত?",
+   "options": [
+    "√2 cos A",
+    "2 sin A",
+    "sin A/√2",
+    "√2 sin A"
+   ],
+   "answer": 3,
+   "explanation": "শর্ত থেকে sin A = (√2 − 1) cos A। তাই cos A − sin A = (2 − √2) cos A = √2(√2 − 1) cos A = √2 sin A।"
+  }
+ ]
+}

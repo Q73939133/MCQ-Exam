@@ -1,0 +1,291 @@
+{
+ "subject": {
+  "en": "Math",
+  "bn": "গণিত"
+ },
+ "lesson": {
+  "en": "Trigonometry",
+  "bn": "ত্রিকোণমিতিক অনুপাত"
+ },
+ "name": {
+  "en": "Test 3 (Board style)",
+  "bn": "টেস্ট ৩ (বোর্ড পরীক্ষার ধরনে)"
+ },
+ "questions": [
+  {
+   "q": "sec 60° এর মান কত?",
+   "options": [
+    "2",
+    "1/2",
+    "√3",
+    "2/√3"
+   ],
+   "answer": 0,
+   "explanation": "cos 60° = 1/2, তাই sec 60° = 1/cos 60° = 2।"
+  },
+  {
+   "q": "নিচের তথ্যগুলো লক্ষ কর:\ni. sin²θ + cos²θ = 1\nii. sec²θ − tan²θ = 1\niii. cosec²θ + cot²θ = 1\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "answer": 0,
+   "explanation": "i ও ii সঠিক। iii ভুল, কারণ সঠিক সূত্র cosec²θ − cot²θ = 1।"
+  },
+  {
+   "q": "cot 30° এর মান কত?",
+   "options": [
+    "1/√3",
+    "1",
+    "√3/2",
+    "√3"
+   ],
+   "answer": 3,
+   "explanation": "tan 30° = 1/√3, তাই cot 30° = 1/tan 30° = √3।"
+  },
+  {
+   "q": "উদ্দীপক: ABC সমকোণী ত্রিভুজের ∠B = 90°, AB = 3 সে.মি., BC = 4 সে.মি. এবং ∠ACB = θ।\nAC এর দৈর্ঘ্য কত?",
+   "options": [
+    "7 সে.মি.",
+    "5 সে.মি.",
+    "√7 সে.মি.",
+    "6 সে.মি."
+   ],
+   "answer": 1,
+   "explanation": "AC = √(AB² + BC²) = √(9 + 16) = 5 সে.মি.।"
+  },
+  {
+   "q": "উদ্দীপক: ABC সমকোণী ত্রিভুজের ∠B = 90°, AB = 3 সে.মি., BC = 4 সে.মি. এবং ∠ACB = θ।\nsin θ + cos θ এর মান কত?",
+   "options": [
+    "7/5",
+    "1",
+    "12/25",
+    "1/5"
+   ],
+   "answer": 0,
+   "explanation": "AC = 5। θ কোণের বিপরীত বাহু AB, সন্নিহিত বাহু BC। sin θ = 3/5, cos θ = 4/5। যোগফল = 7/5।"
+  },
+  {
+   "q": "sin 60° cos 30° − cos 60° sin 30° এর মান কত?",
+   "options": [
+    "1",
+    "0",
+    "3/4",
+    "1/2"
+   ],
+   "answer": 3,
+   "explanation": "(√3/2)(√3/2) − (1/2)(1/2) = 3/4 − 1/4 = 1/2।"
+  },
+  {
+   "q": "নিচের তথ্যগুলো লক্ষ কর:\ni. tan θ = sin θ / cos θ\nii. cot θ = sin θ / cos θ\niii. cosec θ = 1 / sin θ\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "answer": 1,
+   "explanation": "i ও iii সঠিক। ii ভুল, কারণ cot θ = cos θ / sin θ।"
+  },
+  {
+   "q": "tan 30° · tan 60° এর মান কত?",
+   "options": [
+    "0",
+    "1",
+    "√3",
+    "1/√3"
+   ],
+   "answer": 1,
+   "explanation": "tan 30° · tan 60° = (1/√3) × √3 = 1।"
+  },
+  {
+   "q": "উদ্দীপক: A একটি সূক্ষ্মকোণ এবং tan A = 5/12।\ncos A এর মান কত?",
+   "options": [
+    "5/13",
+    "13/12",
+    "5/12",
+    "12/13"
+   ],
+   "answer": 3,
+   "explanation": "বিপরীত বাহু 5, সন্নিহিত বাহু 12 হলে অতিভুজ = √(25 + 144) = 13। cos A = 12/13।"
+  },
+  {
+   "q": "উদ্দীপক: A একটি সূক্ষ্মকোণ এবং tan A = 5/12।\nsec A − tan A এর মান কত?",
+   "options": [
+    "3/2",
+    "2/3",
+    "1/12",
+    "5/13"
+   ],
+   "answer": 1,
+   "explanation": "sec A = 13/12, tan A = 5/12। তাই sec A − tan A = 8/12 = 2/3।"
+  },
+  {
+   "q": "উদ্দীপক: A একটি সূক্ষ্মকোণ এবং tan A = 5/12।\ncosec A + cot A এর মান কত?",
+   "options": [
+    "5",
+    "1/5",
+    "1",
+    "25/13"
+   ],
+   "answer": 0,
+   "explanation": "cosec A = 13/5, cot A = 12/5। যোগফল = 25/5 = 5।"
+  },
+  {
+   "q": "sin θ = 1/2 হলে cosec θ এর মান কত?",
+   "options": [
+    "1/2",
+    "2",
+    "√3/2",
+    "1"
+   ],
+   "answer": 1,
+   "explanation": "cosec θ = 1/sin θ = 1 ÷ (1/2) = 2।"
+  },
+  {
+   "q": "নিচের তথ্যগুলো লক্ষ কর:\ni. tan 45° = 1\nii. sin 30° = cos 60°\niii. sec 60° = 2\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "answer": 3,
+   "explanation": "tan 45° = 1, sin 30° = cos 60° = 1/2 এবং sec 60° = 2। তিনটিই সঠিক।"
+  },
+  {
+   "q": "cos θ = 5/13 হলে sec θ এর মান কত?",
+   "options": [
+    "5/13",
+    "12/13",
+    "13/5",
+    "13/12"
+   ],
+   "answer": 2,
+   "explanation": "sec θ = 1/cos θ = 13/5।"
+  },
+  {
+   "q": "sec²θ − 1 = কত?",
+   "options": [
+    "cot²θ",
+    "sin²θ",
+    "cosec²θ",
+    "tan²θ"
+   ],
+   "answer": 3,
+   "explanation": "sec²θ − tan²θ = 1 থেকে sec²θ − 1 = tan²θ।"
+  },
+  {
+   "q": "উদ্দীপক: θ একটি সূক্ষ্মকোণ এবং sec θ + tan θ = 2।\nsec θ − tan θ এর মান কত?",
+   "options": [
+    "1/2",
+    "2",
+    "3/2",
+    "1"
+   ],
+   "answer": 0,
+   "explanation": "(sec θ + tan θ)(sec θ − tan θ) = sec²θ − tan²θ = 1। তাই sec θ − tan θ = 1/2।"
+  },
+  {
+   "q": "উদ্দীপক: θ একটি সূক্ষ্মকোণ এবং sec θ + tan θ = 2।\nsec θ এর মান কত?",
+   "options": [
+    "5/4",
+    "3/4",
+    "4/5",
+    "5/3"
+   ],
+   "answer": 0,
+   "explanation": "sec θ + tan θ = 2 এবং sec θ − tan θ = 1/2। যোগ করলে 2 sec θ = 5/2, তাই sec θ = 5/4।"
+  },
+  {
+   "q": "উদ্দীপক: θ একটি সূক্ষ্মকোণ এবং sec θ + tan θ = 2।\nsin θ এর মান কত?",
+   "options": [
+    "4/5",
+    "3/4",
+    "3/5",
+    "5/4"
+   ],
+   "answer": 2,
+   "explanation": "sec θ = 5/4 এবং tan θ = (2 − 1/2)/2 = 3/4। তাই sin θ = tan θ ÷ sec θ = 3/5।"
+  },
+  {
+   "q": "1 − cos²θ = কত?",
+   "options": [
+    "tan²θ",
+    "sec²θ",
+    "sin²θ",
+    "cos θ"
+   ],
+   "answer": 2,
+   "explanation": "sin²θ + cos²θ = 1 থেকে 1 − cos²θ = sin²θ।"
+  },
+  {
+   "q": "নিচের তথ্যগুলো লক্ষ কর:\ni. sin θ = 1 / cos θ\nii. tan θ · cot θ = 1\niii. sec θ · cos θ = 1\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "answer": 2,
+   "explanation": "ii ও iii সঠিক। i ভুল, কারণ sin θ = 1 / cosec θ।"
+  },
+  {
+   "q": "cosec²θ − 1 = কত?",
+   "options": [
+    "tan²θ",
+    "sec²θ",
+    "cot²θ",
+    "sin²θ"
+   ],
+   "answer": 2,
+   "explanation": "cosec²θ − cot²θ = 1 থেকে cosec²θ − 1 = cot²θ।"
+  },
+  {
+   "q": "sin θ · cosec θ এর মান কত?",
+   "options": [
+    "0",
+    "sin²θ",
+    "cos θ",
+    "1"
+   ],
+   "answer": 3,
+   "explanation": "cosec θ = 1/sin θ, তাই sin θ · cosec θ = 1।"
+  },
+  {
+   "q": "নিচের তথ্যগুলো লক্ষ কর:\ni. cosec 30° = 2\nii. cot 60° = √3\niii. sec 30° = 2/√3\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "answer": 1,
+   "explanation": "cosec 30° = 2 এবং sec 30° = 2/√3 সঠিক। cot 60° = 1/√3, তাই ii ভুল।"
+  },
+  {
+   "q": "tan θ · cos θ = কত?",
+   "options": [
+    "cos θ",
+    "sin θ",
+    "sec θ",
+    "cot θ"
+   ],
+   "answer": 1,
+   "explanation": "tan θ · cos θ = (sin θ/cos θ) · cos θ = sin θ।"
+  },
+  {
+   "q": "(sin θ + cos θ)² + (sin θ − cos θ)² এর মান কত?",
+   "options": [
+    "1",
+    "0",
+    "2",
+    "4 sin θ cos θ"
+   ],
+   "answer": 2,
+   "explanation": "বর্গ বিস্তার করলে 2 sin²θ + 2 cos²θ = 2(sin²θ + cos²θ) = 2।"
+  }
+ ]
+}
